@@ -1,0 +1,76 @@
+.body {
+    padding: 20px;
+}
+
+.container-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.cards {
+    display: flex;
+    background-color: #333;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    height: 327px;
+    width: 251px;
+    border-radius: 20px;
+    overflow: hidden;
+    flex-direction: column;
+    transition: all 0.3s ease;
+    /* pt shadow elem container */
+    -webkit-box-shadow: inset 200px 107px 195px 24px rgba(87,76,87,1);
+    -moz-box-shadow: inset 200px 107px 195px 24px rgba(87,76,87,1);
+    box-shadow: inset 200px 107px 195px 24px rgba(87,76,87,1);
+    /* pt border elem */
+    border: 4.5px double #DAE6DA;
+}
+
+.cards h1 {
+    color: #E6DADA;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.cards p {
+    color: #E6DADA;
+    text-align: center;
+    font-size: 0.85rem;
+}
+
+
+/* parteneri */
+
+.contain-p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contain-p .part{
+    text-align: center;
+    color: #333;
+}
+
+.photos{
+    display: flex;
+    gap: 20px;
+}
+
+.photos img{
+    filter: grayscale();
+    height: 90px;
+    margin: 10px;
+}
+
+.sep{
+    width: 50%;
+}

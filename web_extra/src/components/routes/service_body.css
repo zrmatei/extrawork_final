@@ -1,0 +1,47 @@
+.photo-services{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.elem-list{
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card-s{
+    position: relative;
+    border-radius: 10px;
+    padding: 4px;
+    background: linear-gradient(25deg, #333, #F4C2C2);
+   
+    -webkit-box-shadow: inset 200px 107px 195px 24px rgba(87,76,87,1);
+    -moz-box-shadow: inset 200px 107px 195px 24px rgba(87,76,87,1);
+    box-shadow: inset 200px 107px 195px 24px rgba(87,76,87,1);
+}
+
+
+.text {
+    color: whitesmoke;
+    text-transform: uppercase;
+    border-radius: 10px; 
+    text-align: center;
+  }
+.photo-services > img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit:cover;
+}
+
+/* de pus astea 
+
+.arrows{
+    display: flex;
+    justify-content: center;
+} */
